@@ -1,0 +1,65 @@
+.commentBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 5px 0px;
+  align-items: start;
+  width: 80%;
+  height: fit-content;
+  padding: 10px 10px 15px 10px;
+  border: 2px solid #2d83a6;
+  background-color: #e2f1f7;
+  border-radius: 10px;
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.nameHeading {
+  font-weight: 600;
+  padding-bottom: 5px;
+}
+
+.actionsRow {
+  display: flex;
+  width: 8%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+svg {
+  width: 20px;
+  height: 20px;
+}
+
+/* .like path {
+  fill: pink;
+  background-color: pink;
+} */
+.like path {
+  fill: pink;
+  stroke: pink;
+}
+.dislike path {
+  fill: rgb(136, 136, 136);
+}
+.dislike path:hover,
+.like path:hover {
+  fill: rgb(254, 210, 218);
+}
+.dislike path:active,
+.like path:active {
+  fill: rgb(233, 90, 111);
+}
+
+.delete {
+  fill: rgb(136, 136, 136);
+}
+
+.delete path:hover {
+  fill: #053a40;
+}
+
+.delete:active {
+  fill: #053a40;
+}
